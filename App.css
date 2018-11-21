@@ -1,0 +1,25 @@
+body {background: grey;}
+.data {background: black;
+      color: white;
+      width: 80%;
+      margin: 4em auto;}
+.data div {display: flex;
+          width: 100%;
+          justify-content: center;
+          height: 70px;
+          }
+.data div span {flex-basis: 12%;
+                text-align: center;
+                padding: 15px 0;
+                line-height: 20px;
+                }
+.data div span img {margin: 0px;
+                    padding:0;
+                    height: 40px;}
+.nav {background: deeppink;
+      font-weight: 700;
+      }
+.nav span {line-height: 15px;
+            }
+.nav span+span {border-left: 2px solid purple}
+.data div span+span {border-left: 2px solid white}
