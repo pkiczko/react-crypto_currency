@@ -1,4 +1,18 @@
 body {background: grey;}
+h2 {text-align: center;
+    padding-top: 20px;}
+input {margin: 10px 20%;
+      width: 60%;
+      text-align: center;
+    }
+button {width: 90%;
+        text-decoration: none;
+        background: inherit;
+        border: none;
+        color: inherit;
+        font-weight: inherit;
+        height: 90%;}
+button:hover {}
 .data {background: black;
       color: white;
       width: 80%;
@@ -20,6 +34,7 @@ body {background: grey;}
       font-weight: 700;
       }
 .nav span {line-height: 15px;
+            margin: auto 0;
             }
-.nav span+span {border-left: 2px solid purple}
+
 .data div span+span {border-left: 2px solid white}
